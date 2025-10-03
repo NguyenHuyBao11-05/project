@@ -1,0 +1,43 @@
+main {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+
+}
+header {
+    background: aqua;
+    height: 80px;
+    border-style: outset;
+}
+nav {
+    background: chartreuse;
+    height: 50px;
+    border-style: outset;
+}
+#Content{
+    min-height: 600px;
+
+}
+left {
+    width: 200px;
+    background: coral;
+    float: left;
+    min-height: 600px;
+    border-style: outset;
+}
+right {
+    background: brown;
+    width: calc(100% - 212px);
+    float: right;
+    min-height: 600px;
+    border-style: outset;
+}
+
+footer {
+    background: gray;
+    height: 80px;
+    clear: both;
+    border-style: outset;
+}
+
+

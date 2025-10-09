@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#layout {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+#header {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    height: 80px;
+}
+
+#menu {
+    background-color: burlywood;
+    text-align: left;
+    width: 200px;
+    vertical-align: top;
+}
+
+#content {
+    background-color:chocolate;
+    text-align: left;
+    vertical-align: top;
+    height: 250px;
+}
+
+#footer {
+    background-color: lightgray;
+    text-align: center;
+    height: 40px;
+    font-style: italic;
+}
